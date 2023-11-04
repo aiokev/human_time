@@ -2,7 +2,7 @@ class humantime():
     def __init__(self):
         super().__init__()
 
-    def timedelta(seconds: int = 0, short: bool = None):
+    def humanize(seconds: int = 0, short: bool = None):
         time = seconds
         seconds_to_minute   = 60
         seconds_to_hour     = 60 * seconds_to_minute
