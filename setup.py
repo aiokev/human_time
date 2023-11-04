@@ -5,7 +5,7 @@ here = pathlib.Path(__file__).parent.resolve()
 desc = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="humanize-time",
+    name="human_time",
     version="2.0.0",
     description="A module with functions to humanize time/duration.",
     long_description=desc,
