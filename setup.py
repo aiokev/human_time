@@ -6,7 +6,7 @@ desc = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="human_time",
-    version="2.0.0",
+    version="0.0.3",
     description="A module with functions to humanize time/duration.",
     long_description=desc,
     long_description_content_type="text/markdown",
