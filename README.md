@@ -12,10 +12,10 @@ pip install git+https://github.com/aiokev/human_time.git
 
 ## Simple example:
 ```py
-from human_time import hduration as hd
+from human_time import humantime as ht
 
-print(hd.humanize(10000))
+print(ht.humanize(10000))
 # 2 hours, 46 minutes and 40 seconds
-print(hd.humanize(10000, True))
+print(ht.humanize(10000, True))
 # 2h 46m 40s
 ```
